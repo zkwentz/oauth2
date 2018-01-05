@@ -21,14 +21,12 @@ rvm:
   - 2.5
   - ruby-head
   - jruby-1.7
-  - jruby-9.1.15
+  - jruby-9.1
   - jruby-head
-  - rbx-3
 
 matrix:
   allow_failures:
     - rvm: ruby-head
     - rvm: jruby-1.7
     - rvm: jruby-head
-    - rvm: rbx-3
   fast_finish: true
