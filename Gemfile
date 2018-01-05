@@ -25,7 +25,7 @@ end
 group :test do
   gem 'addressable', '~> 2.3.8'
   gem 'backports'
-  gem 'coveralls', require: false
+  gem 'coveralls', :require => false
   gem 'rspec', '>= 3'
   gem 'simplecov', '>= 0.9'
 
