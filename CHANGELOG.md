@@ -3,8 +3,6 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 - Add support for Ruby 2.5 (@josephpage)
-
-## Changes in [1.3.1] or [1.4.0]
 - Set the response object on the access token on Client#get_token (@cpetschnig)
 
 ## [1.3.0] - 2016-12-28
@@ -50,7 +48,5 @@ All notable changes to this project will be documented in this file.
 [1.1.0]: https://github.com/intridea/oauth2/compare/v1.0.0...v1.1.0
 [1.2.0]: https://github.com/intridea/oauth2/compare/v1.1.0...v1.2.0
 [1.3.0]: https://github.com/intridea/oauth2/compare/v1.2.0...v1.3.0
-[1.3.1]: https://github.com/intridea/oauth2/compare/v1.3.0...v1.3.1
-[1.4.0]: https://github.com/intridea/oauth2/compare/v1.3.1...v1.4.0
-[unreleased]: https://github.com/intridea/oauth2/compare/v1.4.0...HEAD
+[unreleased]: https://github.com/intridea/oauth2/compare/v1.3.0...HEAD
 
