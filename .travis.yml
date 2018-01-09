@@ -3,7 +3,7 @@ sudo: false
 
 env:
   global:
-    - JRUBY_OPTS="$JRUBY_OPTS --debug"
+    - JRUBY_OPTS="-Xcli.debug=true --debug"
 
 bundler_args: --without development --jobs 3 --retry 3
 cache: bundler
