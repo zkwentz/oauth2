@@ -11,15 +11,7 @@ SimpleCov.start do
   minimum_coverage(95.33)
 end
 
-require 'oauth2'
 require 'addressable/uri'
-require 'rspec'
-
-RSpec.configure do |config|
-  config.expect_with :rspec do |c|
-    c.syntax = :expect
-  end
-end
 
 Faraday.default_adapter = :test
 

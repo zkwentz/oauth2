@@ -1,3 +1,7 @@
+# includes modules from stdlib
+require 'cgi'
+
+# includes gem files
 require 'oauth2/error'
 require 'oauth2/authenticator'
 require 'oauth2/client'
@@ -10,3 +14,7 @@ require 'oauth2/strategy/assertion'
 require 'oauth2/access_token'
 require 'oauth2/mac_token'
 require 'oauth2/response'
+
+# The namespace of this library
+module OAuth2
+end
